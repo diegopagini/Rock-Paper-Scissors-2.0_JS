@@ -135,33 +135,6 @@ html {
   0% {
     transform: rotate(5deg);
   }
-  10% {
-    transform: rotate(10deg);
-  }
-  20% {
-    transform: rotate(15deg);
-  }
-  30% {
-    transform: rotate(20deg);
-  }
-  40% {
-    transform: rotate(25deg);
-  }
-  50% {
-    transform: rotate(30deg);
-  }
-  60% {
-    transform: rotate(35deg);
-  }
-  70% {
-    transform: rotate(40deg);
-  }
-  80% {
-    transform: rotate(45deg);
-  }
-  90% {
-    transform: rotate(50deg);
-  }
   100% {
     transform: rotate(55deg);
   }
