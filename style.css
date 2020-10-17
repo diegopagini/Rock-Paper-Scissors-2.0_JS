@@ -63,15 +63,11 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/bg-triangle.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50%;
 }
 .top-cotainer {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
 }
@@ -108,9 +104,6 @@ html {
 .btn img {
   width: 80px;
 }
-.btn:hover {
-  animation: animax 1s;
-}
 
 .footer{
   grid-row: 3;
@@ -131,11 +124,13 @@ html {
   margin-bottom: 2%;
 }
 
-@keyframes animax {
-  0% {
-    transform: rotate(5deg);
+@media screen and (max-width: 786px) {
+  .top-cotainer {
+    flex-direction: column;
+    margin: 0 auto;
   }
-  100% {
-    transform: rotate(55deg);
+
+  .bottom-container {
+    margin: 0;
   }
 }
